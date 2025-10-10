@@ -44,8 +44,8 @@ Question 1: Declaring Let and Const variables`)
  *
  * ↓ YOUR CODE HERE ↓ */
 
-const food = "peanut butter";
-const drink = "tea";
+var food = "peanut butter";
+var drink = "tea";
 let person1 = "Megan";
 let person2 = "Roger";
 
@@ -79,6 +79,9 @@ console.log(person1 + " is having " + food + " and " + drink + ". " + person2 + 
  *
  * ↓ YOUR CODE HERE ↓ */
 
+var drink = "dietCoke";
+console.log(drink);
+console.log(`${person1} is having ${food} and ${drink}. ${person2} is just having ${drink}.`)
 
 
 //Question: Read the error message - in your own words - what does it mean?
